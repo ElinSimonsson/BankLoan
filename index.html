@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<div class="container">
+    <div class="modern-form">
+        <h1>Banklån</h1>
+        <h4>Räkna ut hur mycket du betalar per månad</h4>
+      
+      <fieldset class='float-label-field'>
+        <label for="totalLoanAmount">Ditt totala lånebelopp</label>
+        <input id="totalLoanAmount" type='text'>
+      </fieldset>
+      
+      <fieldset class='float-label-field'>
+        <label for="rateInput" >Räntesats</label>
+        <input id="rateInput" type='text'>
+      </fieldset>
+      
+      <fieldset class='float-label-field'>
+        <label for="amountYearInput">Antal år som lånet ska betalas tillbaka</label>
+        <input id="amountYearInput" type='text'>
+      </fieldset>
+      
+      <fieldset class='float-label-field'>
+        <label for="startDateInput">Startdatum för lånet</label>
+        <input id="startDateInput" type='date'>
+      </fieldset>
+      <div id="button-container">
+      <button id="calculateLoanButton" class="button-29" role="button">Räkna ut</button>
+    </div>
+    </div>
+
+      <div class= "result">
+        <div class="headerResult">
+          <h3 id="firstChild">Din månadskostnad</h3>
+            <h1 id="userTotalPayment">0 kr</h1>
+          </div>
+          <div class="showFlex">
+            <span>Lånebelopp:</span>
+            <b id="userTotalLoanAmount">0 kr</b>
+          </div>
+
+          <div class="showFlex">
+            <span>Räntesats:</span>
+            <b id="userInterestRare">0,0 %</b>
+          </div>
+
+          <div class="showFlex">
+            <span>Amortering:</span>
+            <b id="userAmortization">0,0 %</b>
+          </div>
+
+          <div class="showFlex">
+              <span>Räntekostnad:</span>
+              <b id="userInterestPayment">0,0 %</b>
+          </div>
+
+          <div class="showFlex">
+            <span>Ränteavdrag:</span>
+            <b id="userRateDeduction">0 kr</b>
+          </div>
+
+          <div class="showFlex">
+            <span>Hela lånet är inbetalat den:</span>
+            <b id="userEndDate">åååå-mm-dd</b>
+          </div>
+          
+      </div>
+    </div>
+    
+
+    <script src="interestRate.js"></script>
+</body>
+</html>

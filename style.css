@@ -1,0 +1,146 @@
+
+
+body {
+    font-family: "Open Sans";
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    margin: auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+  }
+  
+  .modern-form {
+    height: 500px;
+    width: 600px;
+    margin:  auto;
+    border-radius: 20px 0 0 20px;
+    background-color:  #ecf5ff;
+
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .result {
+    height: 500px;
+    width: 400px;
+    margin:  auto;
+    background-color:  #0e3a52;
+    border-radius: 0 20px 20px 0;
+    padding: 20px 10px;
+  }
+
+  .showFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .float-label-field {
+    border: none;
+    outline: none;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf5ff;
+  }
+  
+  .float-label-field input {
+    border: none;
+    outline: none;
+    padding: 5px 5px 8px 0px;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: solid 1px #ffffff;
+    background-color: #ecf5ff;
+  }
+  
+.modern-form h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+.modern-form h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.headerResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.headerResult > #firstChild {
+  margin-bottom: 10px;
+  color: #37b1dd;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#userTotalPayment {
+  margin-top: 10px;
+  color: white;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#calculateLoanButton {
+  
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 200px;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
